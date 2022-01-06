@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(0, 6, 42);
+        font-family: "Open Sans", sans-serif;
+        color: white;
+    }
+    .navbar
+    {
+        background-color: rgb(0, 16, 104);
+        height: 80px;
+        color: white;
+    }
+    .nav-flex
+    {
+      display: flex;
+      margin-left: 10%;
+    }
+    h1{
+        color: white;
+    }
+    .nav-flex2
+    {
+      display: flex;
+      margin-left: 10%;
+    }
+    .nav-flex2>div{
+        margin: 4% 5% 0 0;
+        font-size: 25px;
+    }
+    a{
+        color:rgb(72, 255, 0);
+        text-decoration:none;
+        font-weight: bold;
+    }
+    a:hover
+    {
+        color: white;
+    }
+  h2{
+      text-align: center;
+  }
+   
+  .contact
+  {
+      display: grid;
+      grid-template: "a b"
+                    "c d";    
+  }
+
+  .contact>div{
+      margin: 5%;
+      background-color: rgb(0, 0, 88);
+      height: 150px;
+  }
+   h1{
+       text-align: center;
+   }
+   .a,.b,.c,.d{
+  display: flex;
+   }
+
+   .a,.b,.c,.d>div>h3{
+       color: chartreuse;
+   }
+
+   
+   .img1,.img2,.img3,.img4{
+       width: 60%;
+       margin:25% 0 0 25%;
+   }
+   #img-div{
+       width: 10%;
+   }
+   h5{
+       color: white;
+       font-weight: lighter;
+       font-size: 15px;
+   }
+   .linkdn-img1,.git-img1{
+       width: 10%;
+   }
+   
+</style>
+<body>
+    <div class="navbar">
+      <div class="nav-flex">
+        <div>
+            <a href="Home.html"><h1>Prashant Ahire</h1></a>
+        </div>
+        <div class="nav-flex2">
+        <div><a href="Home.html">Home</a></div>
+        <div><a href="about.html">About</a></div>
+        <div><a href="education.html">Education</a></div>
+        <div><a href="Projects.html">Projects</a></div>
+        <div><a href="Skills.html">Skills</a></div>
+        <div><a href="https://drive.google.com/file/d/13iFgNmuGk6S5rMEXTW-SzeGlD6XjfQvd/view?usp=sharing">Resume</a></div>
+        <div><a href="Contact.html">Contact</a></div>
+    </div>
+      </div>
+    </div>
+    
+  <h1>Contact</h1>
+    <div class="contact">
+    <div class="a">
+      <div id="img-div"><img class="img1" src="./img/location1.png"></div>
+      <div>
+          <h3>My Address</h3>
+          <h5>Nashik,Maharashtra</h5>
+      </div>
+    </div>
+    <div class="b">
+        <div id="img-div"><img class="img2" src="./img/share1.png"></div>
+        <div>
+            <h3>Social Profile</h3>
+            <a href="https://www.linkedin.com/in/prashant-ahire-570286210/"><img class="linkdn-img1" src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif"></a>
+            <a href="https://github.com/Prashantahire488"><img class="git-img1" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+        </div>
+    </div>
+    <div class="c">
+        <div id="img-div"><img class="img3" src="./img/email2.png"></div>
+        <div>
+            <h3>Email</h3>
+            <h5>prashantahire488@gmail.com</h5>
+        </div>
+    </div>
+    <div class="d">
+        <div id="img-div"><img class="img4" src="./img/call2.png"></div>
+        <div>
+            <h3>Contact</h3>
+            <h5>+91 -9823331375</h5>
+        </div>
+    </div>
+    </div>
+
+    
+</body>
+</html>
