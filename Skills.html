@@ -47,22 +47,38 @@
   h2{
       text-align: center;
   }
-   .flex-skill{
-       display: flex;
-       height: 25%;
-       width: 50%;
-       background-color: white;
-       margin-left: 25%;
-   }
+  
+  .flex-skill{
+      display: flex;
+     margin-left: 12%;
+  }
    .flex-skill>div
    {
        margin: 4%;
+       background-color: white;
+       height: 150px;
+       width: 150px;
+       border-radius: 5px;
    }
    .flex-skill>div>img{
        width: 100px;
+       margin: 15%;
    }
     
-   
+   .flex-skill>:nth-child(1)>img
+   {
+      width: 130px;
+      margin:5%;
+   }
+   .flex-skill>:nth-child(2)>img
+   {
+      width: 93px;
+      margin-left: 18%;
+      margin-top: 3%;
+   }
+   .react{
+       margin:50%
+   }
    
 </style>
 <body>
@@ -74,10 +90,9 @@
         <div class="nav-flex2">
         <div><a href="Home.html">Home</a></div>
         <div><a href="about.html">About</a></div>
-        <div><a href="education.html">Education</a></div>
         <div><a href="Projects.html">Projects</a></div>
         <div><a href="Skills.html">Skills</a></div>
-        <div><a href="https://drive.google.com/file/d/13iFgNmuGk6S5rMEXTW-SzeGlD6XjfQvd/view?usp=sharing">Resume</a></div>
+        <div><a target="blank" href="https://drive.google.com/file/d/13iFgNmuGk6S5rMEXTW-SzeGlD6XjfQvd/view?usp=sharing">Resume</a></div>
         <div><a href="Contact.html">Contact</a></div>
     </div>
       </div>
@@ -90,9 +105,9 @@
         <div><img src="./img/bootstrap.png"></div>
     </div>
     <div class="flex-skill">
-        <div><img src="./img/react.png"></div>
-        <div><img src="./img/node.png"></div>
-        <div><img src="./img/express.jpeg"></div>
+        <div><img class="react" src="./img/react.png"></div>
+        <div><img class="node" src="./img/node.png"></div>
+        <div><img class="express" src="./img/express.jpeg"></div>
         <div><img src="./img/MongoDB.gif"></div>
     </div>
     <div class="flex-skill">
