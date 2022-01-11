@@ -48,20 +48,23 @@
       text-align: center;
   }
    
-.project{
+  .project1,.project2{
     display: flex;
-}
-.project>div{
-    height: 200px;
+    background-color: rgb(38, 0, 255);
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5%;
+    width: 70%;
+    padding: 2%;
+  }
+
+ 
+  .zara,.mpl{
     width: 50%;
-    margin: 5%;
-    background-color: rgb(255, 255, 255);
-}
-.project>div>img{
-    width: 50%;
-    margin-left: 22%;
-}
-   
+    border-radius: 2%;
+    margin-left: 50%;
+  }
+
    
 </style>
 <body>
@@ -75,19 +78,29 @@
         <div><a href="about.html">About</a></div>
         <div><a href="Projects.html">Projects</a></div>
         <div><a href="Skills.html">Skills</a></div>
-        <div><a href="https://drive.google.com/file/d/13iFgNmuGk6S5rMEXTW-SzeGlD6XjfQvd/view?usp=sharing">Resume</a></div>
+        <div><a target="blank" href="https://drive.google.com/file/d/13iFgNmuGk6S5rMEXTW-SzeGlD6XjfQvd/view?usp=sharing">Resume</a></div>
         <div><a href="Contact.html">Contact</a></div>
     </div>
       </div>
     </div>
     
-  <div class="project">
-  <div><img src="./img/Zara.png">
-    <a href="https://github.com/Prashantahire488"><h2 style="color: rgb(0, 255, 21);">Zara.com</h2></a>
-</div>
-  <div><img src="./img/Mpl.png">
-   <a href="https://github.com/nileshagrawal98/MPL_Clone"><h2 style="color: rgb(0, 255, 21);">Mpl.live</h2></a></div>
-  </div>
-    
+
+    <div>
+     <div class="project1">
+      <div>
+        <h1>zara.com</h1>
+        <p>It is an e-commerce website selling a variety of luxury items
+          which are of high quality.</p>
+      </div>
+      <div><img class="zara" src="./img/Zara.png"></div>
+     </div>
+     
+     <div class="project2">
+      <div><h1>Mpl.live</h1></div>
+      <div><img class="mpl" src="./img/mpl.png"></div>
+    </div>
+
+    </div>
+ 
 </body>
 </html>
