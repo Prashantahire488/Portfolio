@@ -57,14 +57,75 @@
     width: 70%;
     padding: 2%;
   }
-
+   .div1,.div2{
+     width: 50%;
+   }
  
   .zara,.mpl{
-    width: 50%;
+    width: 80%;
     border-radius: 2%;
-    margin-left: 50%;
+    margin-left: 15%;
+  }
+  .btn{
+    background-color: black;
+    color: white;
+    padding: 2%;
   }
 
+  @media (max-width: 768px) {
+
+.nav-flex2>div{
+    
+    font-size: 15px;
+    margin-top: 10%;
+}
+h1{
+    font-size: 16px;
+    margin-top: 15%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.navbar
+{
+    background-color: rgb(0, 16, 104);
+    height: 60px;
+    color: white;
+}
+
+.nav-flex
+{
+  display: flex;
+  margin-left: 1%;
+}
+.nav-flex2
+    {
+      display: flex;
+      margin-left: 3%;
+    }
+.project1,.project2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .div1,.div2{
+     width: 100%;
+     margin: 5%;
+   }
+
+   .zm{
+     font-size: 25px;
+   }
+   .zara,.mpl{
+    width: 100%;
+    border-radius: 2%;
+    margin-left: 1%;
+  }
+   
+
+}
    
 </style>
 <body>
@@ -87,20 +148,31 @@
 
     <div>
      <div class="project1">
-      <div>
-        <h1>zara.com</h1>
+      <div class="div1">
+        <h1 class="zm">zara.com</h1>
         <p>It is an e-commerce website selling a variety of luxury items
           which are of high quality.</p>
+          <p>Tech Stack : HTML, CSS, JAVASCRIPT</p>
+          <a class="btn" href="https://github.com/Prashantahire488" target="blank">GitHub</a>
+          <a class="btn" href="https://thotapavankumar.github.io/Zara_Project_Clone/" target="blank">Live Demo</a>
       </div>
-      <div><img class="zara" src="./img/Zara.png"></div>
+      <div class="div2"><img class="zara" src="./img/Zara1.jpg"></div>
+      
      </div>
      
      <div class="project2">
-      <div><h1>Mpl.live</h1></div>
-      <div><img class="mpl" src="./img/mpl.png"></div>
+      <div class="div1"><h1 class="zm">Mpl.live</h1>
+        <p>A web application which is a gaming platform where you can
+          win amazing rewards and cash by playing your favorite
+          games.
+          </p>
+          <p>Tech Stack : HTML, CSS, JAVASCRIPT</p>
+          <a class="btn" href="https://github.com/Prashantahire488/MplProject.git" target="blank">GitHub</a>
+          <a class="btn" href="https://mplclone.herokuapp.com/" target="blank">Live Demo</a>
+      </div>
+      <div class="div2"><img class="mpl" src="./img/Mpl1.png"></div>
     </div>
 
     </div>
- 
 </body>
 </html>
